@@ -6,6 +6,7 @@ const role = require('./role')
 const article = require('./article')
 const search = require('./remote-search')
 
+// 模块声明接口，和mock表达式， 统一在 index 中处理
 const mocks = [
   ...user,
   ...role,
